@@ -1,0 +1,39 @@
+diff --git a/node_modules/@chat-ui/vue3/dist/chat-ui.vue3.es.js b/node_modules/@chat-ui/vue3/dist/chat-ui.vue3.es.js
+index e247eba..b2277e4 100644
+--- a/node_modules/@chat-ui/vue3/dist/chat-ui.vue3.es.js
++++ b/node_modules/@chat-ui/vue3/dist/chat-ui.vue3.es.js
+@@ -1,5 +1,6 @@
+ (function(){"use strict";try{if(typeof document!="undefined"){var t=document.createElement("style");t.appendChild(document.createTextNode(".div[data-v-9bed9119]{position:relative}.div:hover div[data-v-9bed9119]{display:block}.div-2[data-v-9bed9119]{position:relative;border-radius:.75rem;padding:1rem;width:fit-content;max-width:80%;margin-bottom:1rem;margin-left:auto}.div-3[data-v-9bed9119]{position:absolute;width:max-content;display:none;bottom:0px;border-radius:.25rem;left:0px;transform:translate(-50%) translateY(50%);box-shadow:#0003 0 0 2px;padding:.25rem;z-index:9999}.div-4[data-v-9bed9119]{position:relative;border-radius:.75rem;padding:1rem;width:fit-content;max-width:80%;margin-bottom:1rem;margin-right:auto}.div-5[data-v-9bed9119]{position:absolute;width:max-content;display:none;bottom:0px;right:0px;border-radius:.25rem;transform:translate(50%) translateY(50%);box-shadow:#0003 0 0 2px;padding:.25rem;z-index:9999}.input[data-v-46284fc5]:focus{outline:none}.svg[data-v-46284fc5]{height:1.5rem;width:1.5rkm}")),document.head.appendChild(t)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
+-import { openBlock as l, createElementBlock as r, normalizeStyle as n, Fragment as v, renderList as L, createElementVNode as i, toDisplayString as u, createCommentVNode as b, createTextVNode as f, pushScopeId as H, popScopeId as y, createStaticVNode as w, resolveComponent as h, createVNode as g } from "vue";
++import { message } from "ant-design-vue";
++import { openBlock as l, createElementBlock as r, normalizeStyle as n, Fragment as v, renderList as L, createElementVNode as i, toDisplayString as u, createCommentVNode as b, createTextVNode as f, pushScopeId as H, popScopeId as y, createStaticVNode as w, resolveComponent as h, createVNode as g} from "vue";
+ const C = (t, o) => {
+   const e = t.__vccOpts || t;
+   for (const [c, d] of o)
+@@ -79,7 +80,7 @@ function O(t, o, e, c, d, s) {
+               color: e.textColorMessageTimestamp || "black"
+             })
+           }, u(a.timestamp), 5)) : b("", !0),
+-          f(" " + u(a.message), 1)
++          f(u(a.message), 1)
+         ], 4)
+       ])) : b("", !0),
+       a.type == "chatbot" ? (l(), r("div", Z, [
+@@ -98,7 +99,7 @@ function O(t, o, e, c, d, s) {
+               color: e.textColorMessageTimestamp || "black"
+             })
+           }, u(a.timestamp), 5)) : b("", !0),
+-          f(" " + u(a.message), 1)
++          f("" + u(a.message),1)
+         ], 4)
+       ])) : b("", !0)
+     ]))), 128))
+@@ -244,7 +245,7 @@ function J(t, o, e, c, d, s) {
+           fontSize: "1.10rem",
+           lineHeight: "1.5rem"
+         })
+-      }, " ChatBot ", 4),
++      }, " Tư vấn trức tuyến ", 4),
+       i("div", j, [
+         i("div", {
+           style: n({

@@ -1,0 +1,132 @@
+/*DETAIL school*/
+#main-content.school-detail-page{
+    background-color:#F4F4F4;
+}
+#main-content #breadcrumb .list-item{
+    display: flex;
+    padding: 0;
+}
+.detail{
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.detail .section-detail
+{
+    background-color: #fff;
+}
+.detail .status{
+    font-size: 16px;
+    color: #3a9800;
+}
+.detail .object_image{  
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.detail .object_image img{  
+    width: 100%;
+}
+.detail .info_object{
+    position: relative;
+}
+.detail .info_object .object_logo{
+    height: 250px;
+    position: absolute;
+    top: -125px;
+    left: 30px; 
+}
+.detail .info_object .object_name{
+    position: absolute;
+    top: -70px;
+    left: 27%;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 46px;
+}
+.detail .object_image img{
+    width: 100%;
+    transform: translateY(-150px);
+}
+.detail .status{
+    position: absolute;
+    top: 10px;
+    left: 27%;
+    font-size: 20px;
+}
+.detail .status .status-item{
+    margin-bottom: 10px;
+}
+.detail .status btn{
+    padding: 10px 20px;
+}
+.detail .status .school_website{
+    background-color: #04AFAE;
+}
+.detail .status .school_phone{
+    background-color: #ffc919;
+    margin-left: 20px;
+}
+.detail .status a{
+    display: inline;
+}
+.detail .description{
+    padding: 30px;
+    padding-top: 200px;
+    text-align: justify;
+}
+.detail .section-head{
+    border-bottom: 1px solid #fff;
+}
+.detail .section-head .section-title{
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: none;
+}
+.detail .section-head .section-title.active{
+    border-bottom: 1px solid #04AFAE;
+    border-radius: 15px 15px 0px 0px;
+}
+.detail .section-content{
+    padding: 30px;
+    background-color: #fff;
+}
+.detail .list_major_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detail .major_search{
+    margin-bottom: 20px;
+}
+.detail .major_search input{
+    padding: 10px 20px;
+    width: 35%;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #04AFAE;
+    caret-color: #04AFAE;
+}
+.detail .major_search input:focus{
+    box-shadow: 0px 0px 5px 0px #04afae;
+}
+.detail .list-major a{
+    padding: 10px 20px;
+    border: 1px solid #04AFAE;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 0;
+}
+.detail .list-major a:hover{
+    box-shadow: 0px 0px 5px 0px #04afae;
+}
+#school-detail .section-content p{
+    margin-left: 25px;
+}
+#school-detail .section-content h3{
+    font-size: 25px;
+}
+

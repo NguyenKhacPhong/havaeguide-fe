@@ -1,0 +1,75 @@
+/*HEADER*/
+
+#head-top #main-menu li a{
+    display: block;
+    color: #fff;
+    padding: 10px 15px;
+}
+#head-top #main-menu li:last-child a{ padding-right: 0!important;}
+#head-body form{
+    width: 100%;
+    text-align: center;
+}
+#head-body #search-wp{
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#head-body #search-wp #s{
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 15px 45px 15px 20px;
+    line-height: normal;
+}
+#head-body #search-wp #sm-s{
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #000;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+#head-body #search-wp #sm-s:hover{ background: #444444; color: #fff;}
+#advisory-wp{
+    position: relative;
+    padding: 15px 30px 15px 50px;
+}
+#advisory-wp:before{
+    position: absolute;
+    content: '\f2a0';
+    font-family: 'FontAwesome';
+    top: 50%;
+    left: 0px;
+    font-size: 21px;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#advisory-wp:after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 55%;
+    background: #fff;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#advisory-wp span{
+    position: relative;
+    display: block;
+    color: #fff;
+}
+#advisory-wp .title{ font-size: 15px;}
+#advisory-wp .phone{ font-family: 'Roboto Bold'; font-size: 16px;}

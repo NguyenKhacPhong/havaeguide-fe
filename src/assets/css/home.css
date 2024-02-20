@@ -1,0 +1,131 @@
+.home-page{
+  font-size: 20px;
+}
+#main-content{
+  padding-bottom: 50px;
+}
+#main-content .card{
+    margin-top: 40px;
+    border: none;
+}
+#main-content .tab-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #04AFAE;
+  }
+  #main-content .tab-bar p {
+    text-transform: uppercase;
+    background-color: #04AFAE;
+    color: #fff;
+  }
+  #main-content .tab-bar .btn-tab-bar {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #main-content .listing{
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  #main-content .listing .listing-content .item-listing .item-inner{
+    border: 1px solid #04AFAE;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  #sector .img-sector{
+    height: 80px;
+  }
+  .title-sector{
+    height: 60px;
+    padding: 10px;
+  }
+  #main-content .listing .listing-content .item-listing .item-inner:hover {
+    box-shadow: 0px 0px 10px 0px #04afae;
+    background-color: #04afae;
+  }
+
+  .oustanding_school .item-inner{
+    margin-bottom: 30px;
+    padding: 15px !important;
+  }
+  .oustanding_school .item-inner:hover{
+    background-color: #fff !important;
+  }
+  .oustanding_school .item-inner .img{
+    height: 250px;
+  }
+  .oustanding_school .item-inner img{
+    max-width: 95%;
+    max-height: 250px;
+  }
+  .oustanding_school .item-inner:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .oustanding_school .bottom-content{
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .area_center .item-inner{
+    margin-bottom: 30px;
+    padding: 0 !important;
+    position: relative;
+  }
+  .area_center .item-inner:hover{
+    background-color: #fff !important;
+  }
+  .area_center .item-inner img{
+    width: 100%;
+    max-height: 160px;
+  }
+  .area_center .item-inner:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .area_center .bottom-content{
+    position: absolute;
+    top: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eee;
+    height: 160px;
+    padding: 10px;
+    transition: 0.5s;
+    width: 100%;
+  }
+  .area_center .item-inner:hover .bottom-content{
+    top: 0px;
+  }
+  .area_center .bottom-content .title{
+    font-size: 20px;
+  }
+  .area_center .bottom-content .description{
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+
+  @media (max-width: 1200px){
+    .oustanding_school .item-inner .img{
+      height: 170px;
+    }
+    .oustanding_school .item-inner img{
+      max-width: 95%;
+      max-height: 170px;
+    }
+  }
+  @media (max-width: 568px){
+    .area_center .item-inner img{
+      min-height: 100px;
+    }
+    .area_center .bottom-content{
+      top: 25%;
+    }
+  }
